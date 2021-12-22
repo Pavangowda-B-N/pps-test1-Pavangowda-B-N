@@ -1,7 +1,7 @@
 #include<stdio.h>
-int main() 
+
+int main()
 {
-  printf("My name is pavan");
+  printf(" My Name is Pavan \n My Friends Name is:\n Pratik \n ChandraPrakash \n Sagar \n Suhas \n Harish\n\t\t\t*************\n");
   return 0;
 }
-
