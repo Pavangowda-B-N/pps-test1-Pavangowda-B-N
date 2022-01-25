@@ -1,27 +1,36 @@
-<br> 0.	Write a program to Print your name. using > 
-<br>Expression
-<br> 1.	Write a program to Add two numbers
-<br> Functions
-<br> 2.	Add two number using 4 function	using Pass by value
-		<br>int input();
-		<br> int add(int a, int b);
-		<br> void output(int a, int b, int sum);
-		<br> input:
-		<br>1
-		3r>Add two numbers using 4 functions and  2
-		<br> output:
-		<br> sum of 1+2 is 3
-	
-<br>3.	Add two numbers using 4 functions and Pass by reference
-		<br> Pass by value
-		<br> void input(int *a, int *b);
-		<br> void add(int a, int b, int *sum);
-		<br> void output(int a, int b, int sum);
-		<br> input:
-		<br> 1
-		<br> 2
-		<br> output:
-		<br> sum of 1+2 is 3
+___
+# **C Programs** #
+___
+```c
+  0.	Write a program to Print your name. using > Expression
+  ```
+  ___
+```c
+    1.	Write a program to Add two numbers 
+```
+___
+```c
+    2.	Add two number using 4 function	using Pass by value
+        int input();
+        int add(int a, int b);
+        void output(int a, int b, int sum);
+        input:1 3
+      output:
+          sum of 1+2 is 3
+```
+___
+```c
+    3.	Add two numbers using 4 functions and Pass by reference
+		     Pass by value
+	       void input(int *a, int *b);
+		    void add(int a, int b, int *sum);
+	       void output(int a, int b, int sum);
+		input:
+		    1
+        2
+		 output:
+		  sum of 1+2 is 3
+
 
 <br> 5.	Write a program to Compare 3 numbers using 4 functions
 	<br> a.	Pass by value	     //int cmp(int a, int b, int c) -> int input ()
