@@ -30,7 +30,8 @@ ___
         2
 		 output:
 		  sum of 1+2 is 3
-
+```
+___
 
 <br> 5.	Write a program to Compare 3 numbers using 4 functions
 	<br> a.	Pass by value	     //int cmp(int a, int b, int c) -> int input ()
