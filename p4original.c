@@ -1,30 +1,32 @@
 #include<stdio.h>
-void input(int a,int b,int c)
+int input()
 {
-  printf("please enter three numbers=");
-  scanf("%d%d%d",&a,&b,&c);
+  int a;
+  scanf("%d",&a);
+  return a;
 }
 int cmp(int a,int b,int c)
 {
-  if(a>b && b>c)
-    return 1;
+  int largest;
+  if(a>b && a>c)
+    largest=a;
   else if(b>a && b>c)
-    return -1;
+    largest=b;
   else
-    return 0;
+    largest=c;
+  return largest;
 }
-int output(int a,int b,int c,int largest)
+void output(int largest)
 {
-  if(largest==1)
-    printf("a is greater number ");
-  else if(largest==-1)
-    printf("b is greater number ");
-  else
-    printf("c is greater number ");
+  printf("the largest number amoung three numbers is %d",largest);
 }
 int main()
 {
-  input();
-  int largest=cmp();
-
+  int a,b,c,l;
+  printf("enter three numbers=");
+  a=input();
+  b=input();
+  c=input();
+  l=cmp(a,b,c);
+  output(l);
 }
