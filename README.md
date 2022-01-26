@@ -1,10 +1,11 @@
-<a href="https://github.com/" target="blank">
+<a href="https://github.com/revacprogramming/pps-test1-Pavangowda-B-N" target="blank">
 <img src="https://i.gzn.jp/img/2020/10/26/github-remove-youtube-dl-repository/00.png" align="right" height="80" width="150">
 </a>
-___
-# **C Programs** #
 
 ___
+# **C Programs** #
+___
+
 ```c
   0.	Write a program to Print your name. using > Expression
   ```
@@ -45,9 +46,13 @@ ___
       void output(int largest)
 ```
 ___
-<br> 5.	Write a program to Compare 3 numbers using 4 functions
-	<br> a.	Pass by value	     //int cmp(int a, int b, int c) -> int input ()
-	<br> b.	Pass by reference //void cmp(int a, int b, int c, int *large); -> void input (int *a, int *b)
+```c
+   5.	Write a program to Compare 3 numbers using 4 functions
+        	Pass by reference 
+          void input (int *a, int *b)
+          void cmp(int a, int b, int c, int *large)
+```
+___
 <br> 6.	Write a program to find Sum of n numbers
 	<br> a.	Sum of n numbers 
 	<br> int input_n();
