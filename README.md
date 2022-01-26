@@ -33,6 +33,14 @@ ___
 ```
 ___
 
+```c
+    4.write a program to find largest number using 4 functions
+      using pass by value
+      void input()
+      int cmp(int a,int b,int c)
+      void output(int largest)
+```
+___
 <br> 5.	Write a program to Compare 3 numbers using 4 functions
 	<br> a.	Pass by value	     //int cmp(int a, int b, int c) -> int input ()
 	<br> b.	Pass by reference //void cmp(int a, int b, int c, int *large); -> void input (int *a, int *b)
