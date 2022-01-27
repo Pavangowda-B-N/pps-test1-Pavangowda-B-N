@@ -64,17 +64,19 @@ ___
       1+2+3+4+5 is 15
 ```
 ___
-	Function Prototypes:
-<br> 7.	Write a program to find Sum of n different number
-entered by the user
-	<br> int input_array_size();
-	<br> void input_array(int n, int a[n]);
-	<br> int sum_n_arrays(int n, int a[n]);
-	<br> void out_put(int n, int a[n], int sum);
-	<br> input:
-	<br> 1 7 11
-	<br> output:
-	<br> 1+7+11 is 19
+```c
+  7.	Write a program to find Sum of n different number
+  entered by the user
+    int input_array_size();
+    void input_array(int n, int a[n]);
+    int sum_n_arrays(int n, int a[n]);
+    void out_put(int n, int a[n], int sum);
+    input:
+    1 7 11
+    output:
+	  1+7+11 is 19
+```
+___
 <br> 8. Write a program to find the square root of a number.
 	<br> float input();
 	<br> float my_sqrt(float n);
