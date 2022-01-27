@@ -53,15 +53,17 @@ ___
           void cmp(int a, int b, int c, int *large)
 ```
 ___
-<br> 6.	Write a program to find Sum of n numbers
-	<br> a.	Sum of n numbers 
-	<br> int input_n();
-	<br> int sum_n(int n);
-	<br> void output(int n, int sum);
-	<br> input: 
-	<br> 5
-	<br> output:
-	<br> 1+2+3+4+5 is 15
+
+```c
+ 6.	Write a program to find Sum of n numbers
+	 int input_n();
+	 int sum_n(int n);
+	 void output(int n, int sum);
+  input:  5
+  output:
+      1+2+3+4+5 is 15
+```
+___
 	Function Prototypes:
 <br> 7.	Write a program to find Sum of n different number
 entered by the user
