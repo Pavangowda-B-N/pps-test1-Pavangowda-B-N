@@ -77,12 +77,16 @@ ___
 	  1+7+11 is 19
 ```
 ___
-<br> 8. Write a program to find the square root of a number.
-	<br> float input();
-	<br> float my_sqrt(float n);
-	<br> void output(float n, float sqrt_result);
-	
-<br> 9.	Write a program to Compare two strings
+
+```c
+ 8. Write a program to find the square root of a number.
+	 float input();
+	 float my_sqrt(float n);
+	 void output(float n, float sqrt_result);
+```
+___
+
+  9.	Write a program to Compare two strings
 	<br> void input_two_string(char *a, char *b);
 	<br> int strcmp(char *a, char *b);
 	<br> void output(char *a, char *b, int result);
