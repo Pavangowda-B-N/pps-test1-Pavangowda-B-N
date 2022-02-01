@@ -85,50 +85,56 @@ ___
 	 void output(float n, float sqrt_result);
 ```
 ___
-
+```c
   9.	Write a program to Compare two strings
-	<br> void input_two_string(char *a, char *b);
-	<br> int strcmp(char *a, char *b);
-	<br> void output(char *a, char *b, int result);
-	<br> input:
-	<br> hello 
-	<br> world
-	<br> output:
-	<br> world is greater than hello
-	
-<br> 10. Write a program to find Sum of two complex numbers
-<br> 	struct _complex
-	<br> {
-	<br> 	float real,imaginary;
-	<br> };
-	<brtypedef _complex Complex
-	<br> Complex input_chellox(); 
-	<br> Complex add(Complex a, Complex b);
-	<br> void output(Complex a, Complex b, Complex c);
-	<br> input:
-	<br> 2 3
-	<br> 4 5
-	<br> output
-	<br> 2 + 3i + 4 + 5i is 6 + 8i 
-<br> 
-<br> 11. Write a program to find Sum of n complex numb<br> ers
-	<br> struct _co<br> mplex
-	<br> {
-		<br> float real,imaginary;
-	<br> };
-	<br> typedef _complex Complex;
-	<br> int get_n();
-	<br> Complex input_complex();
-	<br> void input_n_complex(int n, Complex c[n]);
-	<br> Complex add(Complex a, Complex b);
-	<br> Complex add_n_complex(int n, Complex c[n]);
-	<br> void output(int n, Complex c[n], Complex result);
-<br> 	input:
+	 void input_two_string(char *a, char *b);
+	 int strcmp(char *a, char *b);
+	 void output(char *a, char *b, int result);
+	 input:
+	 hello 
+	 world
+	 output:
+	 world is greater than hello
+```
+___
+```c
+ 10. Write a program to find Sum of two complex numbers
+ 	struct _complex
+   {
+	 	float real,imaginary;
+	 };
+	typedef _complex Complex
+	 Complex input_chellox(); 
+	 Complex add(Complex a, Complex b);
+	 void output(Complex a, Complex b, Complex c);
+ input:
+	 2 3
+	 4 5
+ output
+	 2 + 3i + 4 + 5i is 6 + 8i 
+```
+___
+```c
+ 11. Write a program to find Sum of n complex numb<br> ers
+	 struct _co<br> mplex
+	 {
+      float real,imaginary;
+	 }
+	 typedef _complex Complex;
+	 int get_n();
+	 Complex input_complex();
+	 void input_n_complex(int n, Complex c[n]);
+	 Complex add(Complex a, Complex b);
+	 Complex add_n_complex(int n, Complex c[n]);
+	 void output(int n, Complex c[n], Complex result);
+ 	input:
 	2
-	<br> 2 + 3i 
-	<br> 4 + 5i
-	<br> 2 + 3i 
-	<br> + 4 + 5i is 
-	<br> 6 + 8i
+	 2 + 3i 
+	 4 + 5i
+	 2 + 3i 
+	 4 + 5i is 
+	 6 + 8i
+```
+___
 	
 
